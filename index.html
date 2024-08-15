@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chat App Real-time</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- server or client ko jodny k liye ye script likhty  -->
+    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="nav">
+        <img src="logo.png" alt="Logo">
+    </div>
+    <div class="chat-container">
+        <div class="container" id="chat-container">
+           
+        </div>
+
+        <!-- Message Input Form at the Bottom -->
+         
+        <div class="input-container">
+            <form action="#" id="chat-form">
+                <input type="text" id="chat-input" placeholder="Type a message..." required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <script defer src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script defer src="/js/client.js"></script>
+
+</body>
+</html>
